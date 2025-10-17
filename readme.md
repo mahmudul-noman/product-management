@@ -1,4 +1,3 @@
-```markdown
 # Product Management
 
 A modern, responsive product management application, featuring a beautiful UI with custom color palette and comprehensive CRUD operations.
