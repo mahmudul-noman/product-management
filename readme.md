@@ -24,7 +24,6 @@ A modern, responsive product management application, featuring a beautiful UI wi
 
 ## 📁 Project Structure
 
-``
 product-management/
 ├── app/
 │   ├── globals.css
@@ -84,7 +83,6 @@ product-management/
 ├── postcss.config.mjs
 ├── tsconfig.json
 └── README.md
-``
 
 ## 🎯 Key Features
 
