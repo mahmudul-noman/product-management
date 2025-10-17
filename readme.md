@@ -23,7 +23,7 @@ A modern, responsive product management application, featuring a beautiful UI wi
   - `#0D1821` (Almost Black) - Text
 
 ## 📁 Project Structure
-
+```bash
 product-management/
 ├── app/
 │   ├── globals.css
@@ -83,6 +83,7 @@ product-management/
 ├── postcss.config.mjs
 ├── tsconfig.json
 └── README.md
+```
 
 ## 🎯 Key Features
 
