@@ -993,7 +993,7 @@ export default function ProductsPage() {
                     handleCategoryChange("all");
                   }}
                   className="text-[#A44A3F] hover:text-[#A44A3F]/80 hover:bg-[#A44A3F]/10 
-            transition-all duration-300 rounded-lg"
+            transition-all duration-300 rounded-lg cursor-pointer z-10"
                 >
                   Clear all
                 </Button>
