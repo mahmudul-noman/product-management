@@ -206,8 +206,6 @@
 //   )
 // }
 
-
-
 // "use client";
 
 // import { useEffect, useState } from "react";
@@ -322,8 +320,8 @@
 //           </div>
 //           <Link href="/products/create" className="w-full sm:w-auto">
 //             <Button
-//               className="w-full sm:w-auto h-12 px-6 font-semibold text-base transition-all duration-300 
-//               bg-[#A44A3F] hover:bg-[#A44A3F]/90 hover:scale-105 hover:shadow-2xl 
+//               className="w-full sm:w-auto h-12 px-6 font-semibold text-base transition-all duration-300
+//               bg-[#A44A3F] hover:bg-[#A44A3F]/90 hover:scale-105 hover:shadow-2xl
 //               text-white border-0 rounded-xl shadow-lg cursor-pointer"
 //             >
 //               + Create Product
@@ -335,13 +333,13 @@
 //         <div className="group relative mb-8">
 //           {/* Background Glow Effect */}
 //           <div
-//             className="absolute inset-0 bg-gradient-to-r from-[#A44A3F]/10 via-[#4E6E5D]/10 to-[#AD8A64]/10 
+//             className="absolute inset-0 bg-gradient-to-r from-[#A44A3F]/10 via-[#4E6E5D]/10 to-[#AD8A64]/10
 //     rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
 //           />
 
 //           <div
-//             className="grid grid-cols-1 md:grid-cols-3 gap-6 p-8 rounded-2xl 
-//     bg-white/90 backdrop-blur-xl border border-[#AD8A64]/30 
+//             className="grid grid-cols-1 md:grid-cols-3 gap-6 p-8 rounded-2xl
+//     bg-white/90 backdrop-blur-xl border border-[#AD8A64]/30
 //     shadow-lg hover:shadow-2xl transition-all duration-500
 //     relative overflow-hidden"
 //           >
@@ -370,7 +368,7 @@
 //                   placeholder="Search by product name, description..."
 //                   value={searchInput}
 //                   onChange={(e) => handleSearch(e.target.value)}
-//                   className="pl-11 pr-4 border-2 border-[#AD8A64]/40 focus:border-[#4E6E5D] 
+//                   className="pl-11 pr-4 border-2 border-[#AD8A64]/40 focus:border-[#4E6E5D]
 //             focus:ring-2 focus:ring-[#4E6E5D]/20 transition-all duration-300
 //             rounded-md bg-white/70 backdrop-blur-sm
 //             hover:border-[#AD8A64]/60 hover:bg-white/90
@@ -397,7 +395,7 @@
 //                 {searchInput && (
 //                   <button
 //                     onClick={() => handleSearch("")}
-//                     className="absolute right-3 top-1/2 -translate-y-1/2 
+//                     className="absolute right-3 top-1/2 -translate-y-1/2
 //               text-[#A44A3F] hover:text-[#A44A3F]/80 transition-colors duration-200"
 //                   >
 //                     <svg
@@ -437,7 +435,7 @@
 //                   onValueChange={handleCategoryChange}
 //                 >
 //                   <SelectTrigger
-//                     className="h-12 w-full pl-3 pr-10 border-2 border-[#AD8A64]/40 
+//                     className="h-12 w-full pl-3 pr-10 border-2 border-[#AD8A64]/40
 //             focus:border-[#4E6E5D] focus:ring-2 focus:ring-[#4E6E5D]/20
 //             rounded-md bg-white/70 backdrop-blur-sm
 //             hover:border-[#AD8A64]/60 hover:bg-white/90
@@ -447,7 +445,7 @@
 //                     <SelectValue placeholder="All Categories" />
 //                   </SelectTrigger>
 //                   <SelectContent
-//                     className="rounded-xl border-2 border-[#AD8A64]/20 bg-white/95 backdrop-blur-xl 
+//                     className="rounded-xl border-2 border-[#AD8A64]/20 bg-white/95 backdrop-blur-xl
 //             shadow-2xl animate-in zoom-in-95"
 //                   >
 //                     <SelectItem
@@ -512,7 +510,7 @@
 //                     handleSearch("");
 //                     handleCategoryChange("all");
 //                   }}
-//                   className="text-[#A44A3F] hover:text-[#A44A3F]/80 hover:bg-[#A44A3F]/10 
+//                   className="text-[#A44A3F] hover:text-[#A44A3F]/80 hover:bg-[#A44A3F]/10
 //             transition-all duration-300 rounded-lg"
 //                 >
 //                   Clear all
@@ -525,7 +523,7 @@
 //         {/* Error State */}
 //         {error && (
 //           <div
-//             className="p-6 mb-8 bg-gradient-to-r from-[#A44A3F]/10 to-[#A44A3F]/5 
+//             className="p-6 mb-8 bg-gradient-to-r from-[#A44A3F]/10 to-[#A44A3F]/5
 //             border-2 border-[#A44A3F]/30 rounded-xl animate-slide-down"
 //           >
 //             <p className="text-[#A44A3F] font-semibold">⚠ Error: {error}</p>
@@ -538,7 +536,7 @@
 //             {[...Array(6)].map((_, i) => (
 //               <div
 //                 key={i}
-//                 className="h-80 bg-gradient-to-br from-[#AD8A64]/10 to-[#4E6E5D]/10 
+//                 className="h-80 bg-gradient-to-br from-[#AD8A64]/10 to-[#4E6E5D]/10
 //                   rounded-2xl animate-pulse border border-[#AD8A64]/20"
 //               />
 //             ))}
@@ -567,8 +565,8 @@
 //         {!loading && items.length === 0 && (
 //           <div className="text-center py-16 animate-slide-up">
 //             <div
-//               className="w-24 h-24 mx-auto mb-4 rounded-full 
-//               bg-gradient-to-br from-[#A44A3F]/10 to-[#4E6E5D]/10 
+//               className="w-24 h-24 mx-auto mb-4 rounded-full
+//               bg-gradient-to-br from-[#A44A3F]/10 to-[#4E6E5D]/10
 //               flex items-center justify-center shadow-inner"
 //             >
 //               <span className="text-3xl">📦</span>
@@ -581,7 +579,7 @@
 //             </p>
 //             <Link href="/products/create">
 //               <Button
-//                 className="bg-[#A44A3F] hover:bg-[#A44A3F]/90 
+//                 className="bg-[#A44A3F] hover:bg-[#A44A3F]/90
 //                 text-white border-0 h-11 font-semibold px-6 rounded-xl
 //                 hover:scale-105 transition-all duration-300 shadow-lg"
 //               >
@@ -598,7 +596,7 @@
 //               variant="outline"
 //               onClick={handlePreviousPage}
 //               disabled={currentPage === 0}
-//               className="h-11 px-6 border-2 border-[#4E6E5D] text-[#4E6E5D] 
+//               className="h-11 px-6 border-2 border-[#4E6E5D] text-[#4E6E5D]
 //                 hover:bg-[#4E6E5D] hover:text-white transition-all duration-300
 //                 rounded-xl font-semibold disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer"
 //             >
@@ -611,7 +609,7 @@
 //               variant="outline"
 //               onClick={handleNextPage}
 //               disabled={items.length < pageSize}
-//               className="h-11 px-6 border-2 border-[#4E6E5D] text-[#4E6E5D] 
+//               className="h-11 px-6 border-2 border-[#4E6E5D] text-[#4E6E5D]
 //                 hover:bg-[#4E6E5D] hover:text-white transition-all duration-300
 //                 rounded-xl font-semibold disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer"
 //             >
@@ -632,12 +630,11 @@
 //   );
 // }
 
+"use client";
 
-"use client"
-
-import { useEffect, useState } from "react"
-import { useRouter } from "next/navigation"
-import { useAppDispatch, useAppSelector } from "@/lib/hooks"
+import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
+import { useAppDispatch, useAppSelector } from "@/lib/hooks";
 import {
   fetchProducts,
   searchProducts,
@@ -646,41 +643,54 @@ import {
   setCurrentPage,
   setSearchQuery,
   setSelectedCategory,
-} from "@/lib/slices/productsSlice"
-import { Navbar } from "@/components/navbar"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { ProductCard } from "@/components/product-card"
-import { DeleteConfirmDialog } from "@/components/delete-confirm-dialog"
-import Link from "next/link"
-import { CheckCircle, X } from "lucide-react" // Add CheckCircle icon
+} from "@/lib/slices/productsSlice";
+import { Navbar } from "@/components/navbar";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { ProductCard } from "@/components/product-card";
+import { DeleteConfirmDialog } from "@/components/delete-confirm-dialog";
+import Link from "next/link";
+import { CheckCircle, X } from "lucide-react"; // Add CheckCircle icon
 
 export default function ProductsPage() {
-  const router = useRouter()
-  const dispatch = useAppDispatch()
-  const token = useAppSelector((state) => state.auth.token)
-  const { items, categories, loading, error, currentPage, pageSize, searchQuery, selectedCategory } = useAppSelector(
-    (state) => state.products,
-  )
-  const [deleteId, setDeleteId] = useState<string | null>(null)
-  const [searchInput, setSearchInput] = useState("")
-  const [showSuccess, setShowSuccess] = useState(false) // Add success state
+  const router = useRouter();
+  const dispatch = useAppDispatch();
+  const token = useAppSelector((state) => state.auth.token);
+  const {
+    items,
+    categories,
+    loading,
+    error,
+    currentPage,
+    pageSize,
+    searchQuery,
+    selectedCategory,
+  } = useAppSelector((state) => state.products);
+  const [deleteId, setDeleteId] = useState<string | null>(null);
+  const [searchInput, setSearchInput] = useState("");
+  const [showSuccess, setShowSuccess] = useState(false); // Add success state
 
   useEffect(() => {
     if (!token) {
-      router.push("/login")
-      return
+      router.push("/login");
+      return;
     }
 
-    dispatch(fetchCategories({ token }))
-  }, [token, router, dispatch])
+    dispatch(fetchCategories({ token }));
+  }, [token, router, dispatch]);
 
   useEffect(() => {
-    if (!token) return
+    if (!token) return;
 
     if (searchQuery) {
-      dispatch(searchProducts({ token, searchText: searchQuery }))
+      dispatch(searchProducts({ token, searchText: searchQuery }));
     } else {
       dispatch(
         fetchProducts({
@@ -688,45 +698,45 @@ export default function ProductsPage() {
           offset: currentPage * pageSize,
           limit: pageSize,
           categoryId: selectedCategory || undefined,
-        }),
-      )
+        })
+      );
     }
-  }, [token, currentPage, pageSize, searchQuery, selectedCategory, dispatch])
+  }, [token, currentPage, pageSize, searchQuery, selectedCategory, dispatch]);
 
   const handleSearch = (value: string) => {
-    setSearchInput(value)
-    dispatch(setSearchQuery(value))
-  }
+    setSearchInput(value);
+    dispatch(setSearchQuery(value));
+  };
 
   const handleCategoryChange = (value: string) => {
-    dispatch(setSelectedCategory(value === "all" ? null : value))
-  }
+    dispatch(setSelectedCategory(value === "all" ? null : value));
+  };
 
   const handleDelete = async () => {
-    if (!token || !deleteId) return
+    if (!token || !deleteId) return;
 
-    const result = await dispatch(deleteProduct({ token, id: deleteId }))
-    
+    const result = await dispatch(deleteProduct({ token, id: deleteId }));
+
     if (deleteProduct.fulfilled.match(result)) {
-      setShowSuccess(true)
+      setShowSuccess(true);
       // Auto hide success message after 3 seconds
       setTimeout(() => {
-        setShowSuccess(false)
-      }, 3000)
+        setShowSuccess(false);
+      }, 3000);
     }
-    
-    setDeleteId(null)
-  }
+
+    setDeleteId(null);
+  };
 
   const handlePreviousPage = () => {
     if (currentPage > 0) {
-      dispatch(setCurrentPage(currentPage - 1))
+      dispatch(setCurrentPage(currentPage - 1));
     }
-  }
+  };
 
   const handleNextPage = () => {
-    dispatch(setCurrentPage(currentPage + 1))
-  }
+    dispatch(setCurrentPage(currentPage + 1));
+  };
 
   return (
     <div className="min-h-screen bg-[#EFF1F3]">
@@ -744,9 +754,11 @@ export default function ProductsPage() {
             </p>
           </div>
           <Link href="/products/create" className="w-full sm:w-auto">
-            <Button className="w-full sm:w-auto h-12 px-6 font-semibold text-base transition-all duration-300 
+            <Button
+              className="w-full sm:w-auto h-12 px-6 font-semibold text-base transition-all duration-300 
               bg-[#A44A3F] hover:bg-[#A44A3F]/90 hover:scale-105 hover:shadow-2xl 
-              text-white border-0 rounded-xl shadow-lg cursor-pointer">
+              text-white border-0 rounded-xl shadow-lg cursor-pointer"
+            >
               + Create Product
             </Button>
           </Link>
@@ -755,9 +767,11 @@ export default function ProductsPage() {
         {/* Success Message */}
         {showSuccess && (
           <div className="mb-6 animate-slide-down">
-            <div className="bg-gradient-to-r from-[#4E6E5D]/10 to-[#4E6E5D]/5 
+            <div
+              className="bg-gradient-to-r from-[#4E6E5D]/10 to-[#4E6E5D]/5 
               border-2 border-[#4E6E5D]/30 rounded-2xl p-4 shadow-lg
-              backdrop-blur-xl relative">
+              backdrop-blur-xl relative"
+            >
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-[#4E6E5D] rounded-full flex items-center justify-center shadow-lg">
@@ -777,7 +791,7 @@ export default function ProductsPage() {
                   <X className="w-4 h-4" />
                 </button>
               </div>
-              
+
               {/* Progress bar */}
               <div className="absolute bottom-0 left-0 h-1 bg-[#4E6E5D] rounded-full animate-progress">
                 <div className="h-full bg-[#4E6E5D] rounded-full animate-[shrink_3s_linear_forwards]"></div>
@@ -788,8 +802,10 @@ export default function ProductsPage() {
 
         {/* Error State */}
         {error && (
-          <div className="p-6 mb-8 bg-gradient-to-r from-[#A44A3F]/10 to-[#A44A3F]/5 
-            border-2 border-[#A44A3F]/30 rounded-xl animate-slide-down">
+          <div
+            className="p-6 mb-8 bg-gradient-to-r from-[#A44A3F]/10 to-[#A44A3F]/5 
+            border-2 border-[#A44A3F]/30 rounded-xl animate-slide-down"
+          >
             <p className="text-[#A44A3F] font-semibold">⚠ Error: {error}</p>
           </div>
         )}
@@ -798,14 +814,17 @@ export default function ProductsPage() {
         {/* Search & Filter Section */}
         <div className="group relative mb-8">
           {/* Background Glow Effect */}
-          <div className="absolute inset-0 bg-gradient-to-r from-[#A44A3F]/10 via-[#4E6E5D]/10 to-[#AD8A64]/10 
-    rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+          <div
+            className="absolute inset-0 bg-gradient-to-r from-[#A44A3F]/10 via-[#4E6E5D]/10 to-[#AD8A64]/10 
+    rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+          />
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-8 rounded-2xl 
+          <div
+            className="grid grid-cols-1 md:grid-cols-3 gap-6 p-8 rounded-2xl 
     bg-white/90 backdrop-blur-xl border border-[#AD8A64]/30 
     shadow-lg hover:shadow-2xl transition-all duration-500
-    relative overflow-hidden">
-
+    relative overflow-hidden"
+          >
             {/* Animated Background Pattern */}
             <div className="absolute inset-0 opacity-5">
               <div className="absolute top-0 left-0 w-32 h-32 bg-[#A44A3F] rounded-full -translate-x-1/2 -translate-y-1/2" />
@@ -840,19 +859,39 @@ export default function ProductsPage() {
                 />
                 {/* Search Icon */}
                 <div className="absolute left-3 top-1/2 -translate-y-1/2">
-                  <svg className="w-5 h-5 text-[#4E6E5D]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  <svg
+                    className="w-5 h-5 text-[#4E6E5D]"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                    />
                   </svg>
                 </div>
                 {/* Clear Button */}
                 {searchInput && (
                   <button
-                    onClick={() => handleSearch('')}
+                    onClick={() => handleSearch("")}
                     className="absolute right-3 top-1/2 -translate-y-1/2 
               text-[#A44A3F] hover:text-[#A44A3F]/80 transition-colors duration-200"
                   >
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    <svg
+                      className="w-5 h-5"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M6 18L18 6M6 6l12 12"
+                      />
                     </svg>
                   </button>
                 )}
@@ -873,17 +912,24 @@ export default function ProductsPage() {
                 )}
               </div>
               <div className="flex-1">
-                <Select value={selectedCategory || "all"} onValueChange={handleCategoryChange}>
-                  <SelectTrigger className="h-12 w-full pl-3 pr-10 border-2 border-[#AD8A64]/40 
+                <Select
+                  value={selectedCategory || "all"}
+                  onValueChange={handleCategoryChange}
+                >
+                  <SelectTrigger
+                    className="h-12 w-full pl-3 pr-10 border-2 border-[#AD8A64]/40 
             focus:border-[#4E6E5D] focus:ring-2 focus:ring-[#4E6E5D]/20
             rounded-md bg-white/70 backdrop-blur-sm
             hover:border-[#AD8A64]/60 hover:bg-white/90
             transition-all duration-300
-            shadow-inner group">
+            shadow-inner group"
+                  >
                     <SelectValue placeholder="All Categories" />
                   </SelectTrigger>
-                  <SelectContent className="rounded-xl border-2 border-[#AD8A64]/20 bg-white/95 backdrop-blur-xl 
-            shadow-2xl animate-in zoom-in-95">
+                  <SelectContent
+                    className="rounded-xl border-2 border-[#AD8A64]/20 bg-white/95 backdrop-blur-xl 
+            shadow-2xl animate-in zoom-in-95"
+                  >
                     <SelectItem
                       value="all"
                       className="rounded-lg py-3 hover:bg-[#4E6E5D]/10 transition-all duration-200
@@ -924,19 +970,27 @@ export default function ProductsPage() {
             </div>
 
             {/* Quick Actions - Only show when searching/filtering */}
-            {(searchInput || (selectedCategory && selectedCategory !== "all")) && (
+            {(searchInput ||
+              (selectedCategory && selectedCategory !== "all")) && (
               <div className="col-span-full flex items-center justify-between pt-4 border-t border-[#AD8A64]/20 animate-slide-down">
                 <span className="text-sm text-[#4E6E5D] font-medium">
                   {searchInput && `Searching for: "${searchInput}"`}
-                  {searchInput && selectedCategory && selectedCategory !== "all" && ' • '}
-                  {selectedCategory && selectedCategory !== "all" && `Filtered by: ${categories.find(c => c.id === selectedCategory)?.name}`}
+                  {searchInput &&
+                    selectedCategory &&
+                    selectedCategory !== "all" &&
+                    " • "}
+                  {selectedCategory &&
+                    selectedCategory !== "all" &&
+                    `Filtered by: ${
+                      categories.find((c) => c.id === selectedCategory)?.name
+                    }`}
                 </span>
                 <Button
                   variant="ghost"
                   size="sm"
                   onClick={() => {
-                    handleSearch('')
-                    handleCategoryChange('all')
+                    handleSearch("");
+                    handleCategoryChange("all");
                   }}
                   className="text-[#A44A3F] hover:text-[#A44A3F]/80 hover:bg-[#A44A3F]/10 
             transition-all duration-300 rounded-lg"
@@ -982,9 +1036,11 @@ export default function ProductsPage() {
         {/* Empty State */}
         {!loading && items.length === 0 && (
           <div className="text-center py-16 animate-slide-up">
-            <div className="w-24 h-24 mx-auto mb-4 rounded-full 
+            <div
+              className="w-24 h-24 mx-auto mb-4 rounded-full 
               bg-gradient-to-br from-[#A44A3F]/10 to-[#4E6E5D]/10 
-              flex items-center justify-center shadow-inner">
+              flex items-center justify-center shadow-inner"
+            >
               <span className="text-3xl">📦</span>
             </div>
             <h3 className="text-2xl font-bold text-[#0D1821] mb-2">
@@ -994,9 +1050,11 @@ export default function ProductsPage() {
               Start by creating your first product
             </p>
             <Link href="/products/create">
-              <Button className="bg-[#A44A3F] hover:bg-[#A44A3F]/90 
+              <Button
+                className="bg-[#A44A3F] hover:bg-[#A44A3F]/90 
                 text-white border-0 h-11 font-semibold px-6 rounded-xl
-                hover:scale-105 transition-all duration-300 shadow-lg">
+                hover:scale-105 transition-all duration-300 shadow-lg"
+              >
                 Create First Product
               </Button>
             </Link>
@@ -1041,5 +1099,5 @@ export default function ProductsPage() {
         description="Are you sure you want to delete this product? This action cannot be undone."
       />
     </div>
-  )
+  );
 }
