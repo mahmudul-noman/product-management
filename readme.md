@@ -5,10 +5,9 @@ A modern, responsive product management application, featuring a beautiful UI wi
 ## 🚀 Tech Stack
 
 ### Frontend
-- **Next.js 14** - React framework with App Router
+- **Next.js 15** - React framework with App Router
 - **TypeScript** - Type-safe development
 - **Tailwind CSS** - Utility-first CSS framework
-- **shadcn/ui** - Reusable UI components
 
 ### State Management
 - **Redux Toolkit** - Predictable state container
@@ -139,7 +138,7 @@ product-management/
 
 ## 🌐 Live URL
 
-**Live Application**: [https://your-product-management-app.vercel.app](https://your-product-management-app.vercel.app)
+**Live Application**: [https://product-management-mh.vercel.app/](https://product-management-mh.vercel.app/)
 
 ## 📱 Pages & Features
 
@@ -223,7 +222,7 @@ product-management/
 **Your Name**  
 - GitHub: [@mahmudul-noman](https://github.com/mahmudul-noman/)
 - Email: mhnoman75@gmail.com
-- Portfolio: [www.mhnoman.com](www.mhnoman.com)
+- Portfolio: [Mahmudul Hasan's Portfolio](https://www.mhnoman.com)
 
 ## 📄 License
 
