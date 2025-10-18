@@ -709,9 +709,6 @@ export function ProductForm({ onSubmit, categories, product, mode = "create" }: 
                 • {errors.images}
               </p>
             )}
-            <p className="text-xs text-[#4E6E5D] font-medium">
-              {formData.images.length}/5 images • Use valid image URLs
-            </p>
           </div>
 
           {/* Form Actions */}
